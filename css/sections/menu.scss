@@ -1,0 +1,29 @@
+.menu{
+	
+	&__list{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__item{
+		margin-right: 70px;
+		font-weight: 700;
+		font-size: 13px;
+
+		&:last-child{
+			margin-right: 0px;
+		}
+	}
+
+
+	&__link{
+		color:  #4d4959;
+		text-transform: uppercase;
+		white-space: nowrap;
+
+		&:hover{
+			color:#aa939e;
+		}
+	}
+}

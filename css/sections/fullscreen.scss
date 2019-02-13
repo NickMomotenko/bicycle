@@ -1,0 +1,66 @@
+.fullscreen{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 5;
+	background-color: #fff;
+	transition:.5s;
+	transition-delay: .5s;
+
+	&__menu{
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.menu{
+
+			&__list{
+				flex-direction: column;
+				align-items: center;
+			}
+
+			&__item{
+				margin-right: 0;
+				margin-bottom: 20px;
+
+				&:last-child{
+					margin-bottom:0;
+				}
+			}
+
+			&__link{
+				font-size: 45px;
+			}
+		}
+	}
+}
+
+.is-active{
+	transition: .5s;
+	transition-delay: .2s;
+	visibility: visible;
+	opacity: 1;
+}
+
+.slideInUp{
+	animation: slideInUp .9s;
+}
+
+@keyframes slideInUp{
+	from{
+		transform: translate3d(0,100%,0);
+		opacity: 0;
+		visibility: visible;
+	}
+
+	to{
+		transform: translate3d(0,0,0);
+		opacity: 1;
+	}
+}

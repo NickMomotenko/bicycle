@@ -1,0 +1,43 @@
+//breakpoints
+
+$tablets:768px;
+$phones:480px;
+
+
+//config
+@import 'config/variables.scss';
+@import 'config/media.scss';
+
+
+
+//layout
+@import 'layout/base.scss';
+@import 'layout/fonts.css';
+
+//layout
+
+@import 'sections/intro.scss';
+@import 'sections/menu.scss';
+@import 'sections/header.scss';
+@import 'sections/logo.scss';
+@import 'sections/about.scss';
+@import 'sections/content.scss';
+@import 'sections/work.scss';
+@import 'sections/slider.scss';
+@import 'sections/shop.scss';
+@import 'sections/mailto.scss';
+@import 'sections/send.scss';
+@import 'sections/social.scss';
+@import 'sections/footer.scss';
+@import 'sections/burger.scss';
+@import 'sections/fullscreen.scss';
+
+
+
+
+
+
+
+
+
+

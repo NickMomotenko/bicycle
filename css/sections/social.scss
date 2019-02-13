@@ -1,0 +1,27 @@
+.social{
+	&__list{
+		display: flex;
+		align-items: center;
+	}
+
+	&__item{
+		margin-right: 20px;
+		display: block;
+		height: 35px;
+		width: 35px;
+
+		background-color: grey;
+		border-radius: 50%;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	&__link{
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+}

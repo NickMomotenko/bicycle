@@ -1,0 +1,40 @@
+.footer{
+	background: #f7f7f7;
+	height: 250px;
+	margin-top: -250px;
+	font-size: 20px;
+
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@include tablets{
+			flex-direction: column;
+			justify-content: center;
+		}
+		
+	}
+
+	&__cop{
+		font-weight: 700;
+		color: #848789;
+
+		@include tablets{
+			margin-bottom: 20px;
+		}
+	}
+
+	&__handcraft{
+		font-weight: 400;
+		color: #848789;
+
+		.nickname{
+			color: black;
+		}
+
+		@include tablets{
+			margin-top: 20px;
+		}
+	}
+}

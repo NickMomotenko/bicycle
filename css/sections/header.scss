@@ -1,0 +1,21 @@
+.header{
+	padding-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__logo{
+		margin-right: 30px;
+
+		@include tablets{
+			margin-right: 0;
+		}
+	}
+
+
+	&__menu{
+		@include tablets{
+			display: none;
+		}
+	}
+}
